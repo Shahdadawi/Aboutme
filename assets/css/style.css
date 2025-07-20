@@ -1,0 +1,114 @@
+/* style.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a1a2e;
+  padding: 20px 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar li a:hover {
+  color: #ffd700;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10%;
+  background: linear-gradient(135deg, #e7eaf6, #f8f8f8);
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  color: #1a1a2e;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #1a1a2e;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #3a3a7a;
+}
+
+.hero-img img {
+  width: 180px;
+  border-radius: 100px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.site-overview {
+  padding: 40px 10%;
+  background-color: #fff;
+}
+
+.site-overview h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1a1a2e;
+}
+
+.site-overview ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.site-overview ul li {
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+
+footer {
+  background-color: #1a1a2e;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 50px;
+}
